@@ -7,13 +7,14 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;  
 }
 .half-width{
     width: 50%;
     padding: 5%;
+    
 }
 .half-width img{
     width: 100%;
@@ -23,4 +24,14 @@ section{
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
+    box-shadow: 10px 10px 40px powderblue;
+}
+footer p {
+    text-align: center;
 }
